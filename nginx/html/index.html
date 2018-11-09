@@ -1,0 +1,25 @@
+<html>
+    <head></head>
+    <body>
+        <div id="config">waiting for config...</div>
+    </body>
+</html>
+
+
+<script>
+setTimeout(function(){
+    var xmlhttp = new XMLHttpRequest();
+    var url = "/config.json";
+
+    xmlhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+            document.getElementById("config").innerHTML = this.responseText;
+        }
+    };
+
+    xmlhttp.open("GET", url, true);
+
+    xmlhttp.send();
+}, 1000);
+
+</script>
