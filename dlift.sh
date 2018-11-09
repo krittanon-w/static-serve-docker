@@ -1,6 +1,6 @@
 #!/bin/bash
 
-NAME="web-stack"
+NAME="static-serve"
 
 if [[ $@ == "-prod" ]]; then
     ENV=prod

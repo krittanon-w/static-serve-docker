@@ -1,6 +1,6 @@
 FROM nginx
 
-ARG DEP_ENV
+ARG DEP_ENV=dev
 ENV DEP_ENV $DEP_ENV
 
 WORKDIR /usr/share/nginx/script
