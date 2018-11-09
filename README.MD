@@ -17,5 +17,5 @@ you can try this by go to `localhost:8080` then you will get depend on your env 
 ```
 
 There is script for testing env
-`./dlift.sh` for setting environment ro `dev` and 
-`./dlift.sh -prod` for setting environment ro `prod`
+`./dlift.sh` for setting environment on `dev` and 
+`./dlift.sh -prod` for setting environment on `prod`
